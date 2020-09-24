@@ -5,8 +5,8 @@ These are the assignment and coursework which I have done while I was taking Mac
 * Data Preprocessing
 ### SuperVised Learning Methods
 #### Regression models
-* Linear Regression
-** Linear Regression is a machine learning algorithm based on supervised learning.
+##### Linear Regression
+* Linear Regression is a machine learning algorithm based on supervised learning.
 It performs a regression task. Regression models a target prediction value based on independent variables.
 It is mostly used for finding out the relationship between variables and forecasting.
 Different regression models differ based on – the kind of relationship between dependent
@@ -23,11 +23,12 @@ A simple LR Graph plotting shown belwoe
 * θ1: intercept
 * θ2: coefficient of x
 
-* Polynomial Regression
-* Multiple Linear Regression
-* Support Vector Machine Regression
-* Decison Tree Regression
-* Random Forest Regression
+##### Polynomial Regression
+##### Multiple Linear Regression
+##### Support Vector Machine Regression
+##### Decison Tree Regression
+##### Random Forest Regression
+
 #### Classinfication models
 * Logistic Regression
 * Support Vector Machine Classification
