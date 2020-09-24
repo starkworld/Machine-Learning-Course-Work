@@ -24,6 +24,17 @@ A simple LR Graph plotting shown belwoe
 * θ2: coefficient of x
 
 ##### Polynomial Regression
+* Polynomial Regression is a regression algorithm that models the relationship between a dependent(y) and independent variable(x) as nth degree polynomial. The Polynomial Regression equation is given below
+
+* Polynomial Regression
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Regression%20Models/Polynomial%20LR/Screen%20Shot%202020-09-24%20at%201.50.10%20AM.png)
+
+* y= b0+b1x1+ b2x12+ b2x13+...... bnx1n
+
+* x: input training data (univariate – one input variable(parameter))
+* y: labels to data (supervised learning)
+* bn: coefficient variable of x
+
 ##### Multiple Linear Regression
 ##### Support Vector Machine Regression
 ##### Decison Tree Regression
