@@ -112,8 +112,12 @@ Random forest algorithm can be used for both classifications and regression task
 
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Random_forest_diagram_complete.png)
 
-##### Kernal Support Vector Machine
 ##### Decision Tree Classification
+* A Decision Tree is a simple representation for classifying examples. It is a Supervised Machine Learning where the data is continuously split according to a certain parameter.
+* Decision Tree consists of : \
+Nodes : Test for the value of a certain attribute.\
+Edges/ Branch : Correspond to the outcome of a test and connect to the next node or leaf.\
+Leaf nodes : Terminal nodes that predict the outcome (represent class labels or class distribution).\
 ##### K-Nearest Neighbors
 
 ### Unsupervised Learning Methods
