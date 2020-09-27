@@ -100,17 +100,19 @@ A simple LR Graph plotting shown belwoe
 * P(h) is the probability of hypothesis h being true (regardless of the data). This is called the prior probability of h.
 * P(d) is the probability of the data (regardless of the hypothesis).
 
-* Random Forest Classification
-* Kernal Support Vector Machine
-* Decision Tree Classification
-* K-Nearest Neighbors
+##### Random Forest Classification
+##### Kernal Support Vector Machine
+##### Decision Tree Classification
+##### K-Nearest Neighbors
+
 ### Unsupervised Learning Methods
 #### Clustering Models
-* K means Clustering
-* Hierarchical Clustering
+##### K means Clustering
+##### Hierarchical Clustering
+
 ### Reinforcement learning(Little)
-* Association Rule based Learning
-* Upper Confidence Bound
-* Thompson Sampling
+##### Association Rule based Learning
+##### Upper Confidence Bound
+##### Thompson Sampling
 
 This Reo consist assignments of every model that written above.
