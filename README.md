@@ -91,7 +91,7 @@ A simple LR Graph plotting shown belwoe
 
 * Bayes’ Theorem is stated as:
 
-**P(h|d) = (P(d|h) * P(h)) / P(d)
+**P(h|d) = (P(d|h) * P(h)) / P(d)**
 
 * Where
 
