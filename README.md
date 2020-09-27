@@ -5,7 +5,7 @@ These are the assignment and coursework which I have done while I was taking Mac
 * Data Preprocessing
 ### SuperVised Learning Methods
 #### Regression models
-##### Linear Regression
+#### Linear Regression
 * Linear Regression is a machine learning algorithm based on supervised learning.
 It performs a regression task. Regression models a target prediction value based on independent variables.
 It is mostly used for finding out the relationship between variables and forecasting.
@@ -23,7 +23,7 @@ A simple LR Graph plotting shown belwoe
 * θ1: intercept
 * θ2: coefficient of x
 
-##### Polynomial Regression
+#### Polynomial Regression
 * Polynomial Regression is a regression algorithm that models the relationship between a dependent(y) and independent variable(x) as nth degree polynomial. The Polynomial Regression equation is given below
 
 * Polynomial Regression
@@ -35,24 +35,24 @@ A simple LR Graph plotting shown belwoe
 * y: labels to data (supervised learning)
 * bn: coefficient variable of x
 
-##### Multiple Regression
+#### Multiple Regression
 * Multiple linear regression (MLR), also known simply as multiple regression, is a statistical technique that uses several explanatory variables to predict the outcome of a response variable. The goal of multiple linear regression (MLR) is to model linear relationship between exploratory vatiable and response variable.
 * Formula and Calcualtion of Multiple Linear Regression
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Regression%20Models/Multiple%20Linear%20Regression/Screen%20Shot%202020-09-25%20at%205.25.12%20PM.png)
 
-##### Support Vector Machine Regression
+#### Support Vector Machine Regression
 * Support Vector Machines (SVMs) are well known in classification problems. The use of SVMs in regression is not as well documented, however. These types of models are known as Support Vector Regression (SVR).
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Regression%20Models/SVR/Screen%20Shot%202020-09-25%20at%205.30.29%20PM.png)
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Regression%20Models/SVR/Screen%20Shot%202020-09-25%20at%205.30.39%20PM.png)
 * SVR is a powerful algorithm that allows us to choose how tolerant we are of errors, both through an acceptable error margin(ϵ) and through tuning our tolerance of falling outside that acceptable error rate. Hopefully, this tutorial has shown you the ins-and-outs of SVR and has left you confident enough to add it to your modeling arsenal.
 
-##### Decison Tree Regression
+#### Decison Tree Regression
 * Decision tree builds regression or classification models in the form of a tree structure. It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. A decision node (e.g., Outlook) has two or more branches (e.g., Sunny, Overcast and Rainy), each representing values for the attribute tested. Leaf node (e.g., Hours Played) represents a decision on the numerical target. The topmost decision node in a tree which corresponds to the best predictor called root node. Decision trees can handle both categorical and numerical data. 
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Regression%20Models/Decision%20Trees/Screen%20Shot%202020-09-25%20at%205.38.16%20PM.png)
 
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Regression%20Models/Decision%20Trees/Screen%20Shot%202020-09-25%20at%205.39.53%20PM.png)
 
-##### Random Forest Regression
+#### Random Forest Regression
 * Random forest is a Supervised Learning algorithm which uses ensemble learning method for classification and regression. Random forest is a bagging technique and not a boosting technique. The trees in random forests are run in parallel. There is no interaction between these trees while building the trees.
 * It operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Regression%20Models/Random%20Forest/Screen%20Shot%202020-09-25%20at%205.41.40%20PM.png)
@@ -60,7 +60,7 @@ A simple LR Graph plotting shown belwoe
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Regression%20Models/Random%20Forest/Screen%20Shot%202020-09-25%20at%205.44.33%20PM.png)
 
 #### Classinfication models
-##### Logistic Regression
+#### Logistic Regression
 * Logistic regression is a classification algorithm used to assign observations to a discrete set of classes. Some of the examples of classification problems are Email spam or not spam, Online transactions Fraud or not Fraud, Tumor Malignant or Benign. Logistic regression transforms its output using the logistic sigmoid function to return a probability value.
 * Types of logistic regression
 * Binary (eg. Tumor Malignant or Benign)
@@ -74,7 +74,7 @@ A simple LR Graph plotting shown belwoe
 * Here you can see the prediction difference between linera regression model and logistic regression model
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-26%20at%208.27.30%20PM.png)
 
-##### Support Vector Machine Classification
+#### Support Vector Machine Classification
 * Support Vector Machines (SVMs) are well known in classification problems. The use of SVMs in regression is not as well documented. The objective of the support vector machine algorithm is to find a hyperplane in an N-dimensional space(N — the number of features) that distinctly classifies the data points.
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-26%20at%208.49.06%20PM.png)
 
@@ -82,7 +82,7 @@ A simple LR Graph plotting shown belwoe
 
 * To separate the two classes of data points, there are many possible hyperplanes that could be chosen. Our objective is to find a plane that has the maximum margin, i.e the maximum distance between data points of both classes. Maximizing the margin distance provides some reinforcement so that future data points can be classified with more confidence.
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-26%20at%208.48.52%20PM.png)
-##### Naive Bayes
+#### Naive Bayes
 * In machine learning we are often interested in selecting the best hypothesis (h) given data (d).
 
 * In a classification problem, our hypothesis (h) may be the class to assign for a new data instance (d).
@@ -100,7 +100,7 @@ A simple LR Graph plotting shown belwoe
 * P(h) is the probability of hypothesis h being true (regardless of the data). This is called the prior probability of h.
 * P(d) is the probability of the data (regardless of the hypothesis).
 
-##### Random Forest Classification
+#### Random Forest Classification
 * In machine learning, the random forest algorithm is also known as the random forest classifier. It is a very popular classification algorithm. One of the most interesting thing about this algorithm is that it can be used as both classification and random forest regression algorithm. The RF algorithm is an algorithm for machine learning, which is a forest. We know the forest consists of a number of trees. The trees being mentioned here are decision trees.  Therefore, the RF algorithm comprises a random collection or a random selection of a forest tree. It is an addition to the decision tree algorithm. So basically, what a RF algorithm does is that it creates a random sample of multiple decision trees and merges them together to obtain a more stable and accurate prediction through cross validation. In general, the more trees in the forest, the more robust would be the prediction and thus higher accuracy.
 * Why Use random forest??
 Random forest algorithm can be used for both classifications and regression task.
@@ -112,7 +112,7 @@ Random forest algorithm can be used for both classifications and regression task
 
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Random_forest_diagram_complete.png)
 
-##### Decision Tree Classification
+#### Decision Tree Classification
 * A Decision Tree is a simple representation for classifying examples. It is a Supervised Machine Learning where the data is continuously split according to a certain parameter.
 * Decision Tree consists of : \
 Nodes : Test for the value of a certain attribute.\
@@ -121,7 +121,23 @@ Leaf nodes : Terminal nodes that predict the outcome (represent class labels or 
 ![alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-27%20at%202.02.56%20AM.png)
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-27%20at%202.04.12%20AM.png)
 
-##### K-Nearest Neighbors
+#### K-Nearest Neighbors
+* The k-nearest neighbors (KNN) algorithm is a simple, easy-to-implement supervised machine learning algorithm that can be used to solve both classification and regression problems
+* The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other.
+##### The KNN Algorithm
+1.Load the data\
+2. Initialize K to your chosen number of neighbors\
+3. For each example in the data\
+3.1 Calculate the distance between the query example and the current example from the data.\
+3.2 Add the distance and the index of the example to an ordered collection\
+4. Sort the ordered collection of distances and indices from smallest to largest (in ascending order) by the distances\
+5. Pick the first K entries from the sorted collection\
+6. Get the labels of the selected K entries\
+7. If regression, return the mean of the K labels\
+8. If classification, return the mode of the K labels\
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-27%20at%202.07.52%20AM.png)
+**Choosing the right value for K**
+* To select the K that’s right for your data, we run the KNN algorithm several times with different values of K and choose the K that reduces the number of errors we encounter while maintaining the algorithm’s ability to accurately make predictions when it’s given data it hasn’t seen before.
 
 ### Unsupervised Learning Methods
 #### Clustering Models
