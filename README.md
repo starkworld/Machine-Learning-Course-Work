@@ -82,7 +82,24 @@ A simple LR Graph plotting shown belwoe
 
 * To separate the two classes of data points, there are many possible hyperplanes that could be chosen. Our objective is to find a plane that has the maximum margin, i.e the maximum distance between data points of both classes. Maximizing the margin distance provides some reinforcement so that future data points can be classified with more confidence.
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-26%20at%208.48.52%20PM.png)
-* Naive Bayes
+##### Naive Bayes
+* In machine learning we are often interested in selecting the best hypothesis (h) given data (d).
+
+* In a classification problem, our hypothesis (h) may be the class to assign for a new data instance (d).
+
+* One of the easiest ways of selecting the most probable hypothesis given the data that we have that we can use as our prior knowledge about the problem. Bayes’ Theorem provides a way that we can calculate the probability of a hypothesis given our prior knowledge.
+
+* Bayes’ Theorem is stated as:
+
+**P(h|d) = (P(d|h) * P(h)) / P(d)
+
+* Where
+
+* P(h|d) is the probability of hypothesis h given the data d. This is called the posterior probability.
+* P(d|h) is the probability of data d given that the hypothesis h was true.
+* P(h) is the probability of hypothesis h being true (regardless of the data). This is called the prior probability of h.
+* P(d) is the probability of the data (regardless of the hypothesis).
+
 * Random Forest Classification
 * Kernal Support Vector Machine
 * Decision Tree Classification
