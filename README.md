@@ -101,6 +101,17 @@ A simple LR Graph plotting shown belwoe
 * P(d) is the probability of the data (regardless of the hypothesis).
 
 ##### Random Forest Classification
+* In machine learning, the random forest algorithm is also known as the random forest classifier. It is a very popular classification algorithm. One of the most interesting thing about this algorithm is that it can be used as both classification and random forest regression algorithm. The RF algorithm is an algorithm for machine learning, which is a forest. We know the forest consists of a number of trees. The trees being mentioned here are decision trees.  Therefore, the RF algorithm comprises a random collection or a random selection of a forest tree. It is an addition to the decision tree algorithm. So basically, what a RF algorithm does is that it creates a random sample of multiple decision trees and merges them together to obtain a more stable and accurate prediction through cross validation. In general, the more trees in the forest, the more robust would be the prediction and thus higher accuracy.
+* Why Use random forest??
+Random forest algorithm can be used for both classifications and regression task.
+* It provides higher accuracy through cross validation.
+* Random forest classifier will handle the missing values and maintain the  accuracy of a large proportion of data.
+* If there are more trees, it won’t allow over-fitting trees in the model.
+* It has the power to handle a large data set with higher dimensionality
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-27%20at%201.55.35%20AM.png)
+
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Random_forest_diagram_complete.png)
+
 ##### Kernal Support Vector Machine
 ##### Decision Tree Classification
 ##### K-Nearest Neighbors
