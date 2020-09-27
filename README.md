@@ -60,8 +60,28 @@ A simple LR Graph plotting shown belwoe
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Regression%20Models/Random%20Forest/Screen%20Shot%202020-09-25%20at%205.44.33%20PM.png)
 
 #### Classinfication models
-* Logistic Regression
-* Support Vector Machine Classification
+##### Logistic Regression
+* Logistic regression is a classification algorithm used to assign observations to a discrete set of classes. Some of the examples of classification problems are Email spam or not spam, Online transactions Fraud or not Fraud, Tumor Malignant or Benign. Logistic regression transforms its output using the logistic sigmoid function to return a probability value.
+* Types of logistic regression
+* Binary (eg. Tumor Malignant or Benign)
+* Multi-linear functions failsClass (eg. Cats, dogs or Sheep's)
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-26%20at%208.27.55%20PM.png)
+
+* The hypothesis of logistic regression tends it to limit the cost function between 0 and 1. Therefore linear functions fail to represent it as it can have a value greater than 1 or less than 0 which is not possible as per the hypothesis of logistic regression.
+* Here below you can see the perofrmance of logistics regression on increasing number of epochs
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/1*PQ8tdohapfm-YHlrRIRuOA.gif)
+
+* Here you can see the prediction difference between linera regression model and logistic regression model
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-26%20at%208.27.30%20PM.png)
+
+##### Support Vector Machine Classification
+* Support Vector Machines (SVMs) are well known in classification problems. The use of SVMs in regression is not as well documented. The objective of the support vector machine algorithm is to find a hyperplane in an N-dimensional space(N — the number of features) that distinctly classifies the data points.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-26%20at%208.49.06%20PM.png)
+
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-26%20at%208.49.17%20PM.png)
+
+* To separate the two classes of data points, there are many possible hyperplanes that could be chosen. Our objective is to find a plane that has the maximum margin, i.e the maximum distance between data points of both classes. Maximizing the margin distance provides some reinforcement so that future data points can be classified with more confidence.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-26%20at%208.48.52%20PM.png)
 * Naive Bayes
 * Random Forest Classification
 * Kernal Support Vector Machine
