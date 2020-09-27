@@ -117,7 +117,10 @@ Random forest algorithm can be used for both classifications and regression task
 * Decision Tree consists of : \
 Nodes : Test for the value of a certain attribute.\
 Edges/ Branch : Correspond to the outcome of a test and connect to the next node or leaf.\
-Leaf nodes : Terminal nodes that predict the outcome (represent class labels or class distribution).\
+Leaf nodes : Terminal nodes that predict the outcome (represent class labels or class distribution).
+![alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-27%20at%202.02.56%20AM.png)
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-27%20at%202.04.12%20AM.png)
+
 ##### K-Nearest Neighbors
 
 ### Unsupervised Learning Methods
