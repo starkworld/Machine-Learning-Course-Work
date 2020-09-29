@@ -145,8 +145,24 @@ Leaf nodes : Terminal nodes that predict the outcome (represent class labels or 
 #### Clustering Models
 * Clustering can be considered the most important unsupervised learning problem; so, as every other problem of this kind, it deals with finding a structure in a collection of unlabeled data. A loose definition of clustering could be “the process of organizing objects into groups whose members are similar in some way”. A cluster is therefore a collection of objects which are “similar” between them and are “dissimilar” to the objects belonging to other clusters.
 ##### K means Clustering
+K-means is one of the simplest unsupervised learning algorithms that solves the well known clustering problem. The procedure follows a simple and easy way to classify a given data set through a certain number of clusters (assume k clusters) fixed a priori. The main idea is to define k centres, one for each cluster. These centroids should be placed in a smart way because of different location causes different result. So, the better choice is to place them as much as possible far away from each other. The next step is to take each point belonging to a given data set and associate it to the nearest centroid. When no point is pending, the first step is completed and an early groupage is done. At this point we need to re-calculate k new centroids as barycenters of the clusters resulting from the previous step. After we have these k new centroids, a new binding has to be done between the same data set points and the nearest new centroid. A loop has been generated. As a result of this loop we may notice that the k centroids change their location step by step until no more changes are done. In other words centroids do not move any more.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-29%20at%206.49.18%20PM.png)
+Finally, this algorithm aims at minimizing an objective function, in this case a squared error function. The objective function.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-29%20at%206.50.08%20PM.png)
 
+is a chosen distance measure between a data point xi and the cluster centre cj, is an indicator of the distance of the n data points from their respective cluster centres.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-29%20at%206.51.03%20PM.png)
+
+where, ‘ci’ represents the number of data points in ith cluster.
+Recalculate the distance between each data point and new obtained cluster centers.
+If no data point was reassigned then stop, otherwise repeat from step 3).
 ##### Hierarchical Clustering
+Given a set of N items to be clustered, and an N*N distance (or similarity) matrix, the basic process of hierarchical clustering is this:
+Start by assigning each item to a cluster, so that if you have N items, you now have N clusters, each containing just one item. Let the distances (similarities) between the clusters the same as the distances (similarities) between the items they contain.
+Find the closest (most similar) pair of clusters and merge them into a single cluster, so that now you have one cluster less.
+Compute distances (similarities) between the new cluster and each of the old clusters.
+Repeat steps 2 and 3 until all items are clustered into a single cluster of size N.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/Classification%20models/images/Screen%20Shot%202020-09-29%20at%206.52.31%20PM.png)
 
 ### Reinforcement learning
 * A system interacts with a dynamic environment in which it must perform a certain goal (such as driving a vehicle or playing a game against an opponent). The system is provided feedback in terms of rewards and punishments as it navigates its problem space.
