@@ -208,5 +208,5 @@ The above equation gives us the selection criterion for our model. Q_n(a) is our
 Automation in Industries: Bots and Machines for transporting and Delivering items without human intervention.
 
 References:
-https://towardsdatascience.com/
-https://www.geeksforgeeks.org/introduction-to-thompson-sampling-reinforcement-learning/
+* https://towardsdatascience.com/ 
+* https://www.geeksforgeeks.org/introduction-to-thompson-sampling-reinforcement-learning/
