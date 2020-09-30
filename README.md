@@ -183,6 +183,30 @@ This measure defines the likeliness of occurrence of consequent on the cart give
 ![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/reinforcement%20learning/images/Screen%20Shot%202020-09-30%20at%202.54.19%20PM.png)
 
 ##### Upper Confidence Bound
-##### Thompson Sampling
+This is the essence of a multi-armed bandit problem, which is a simplified reinforcement learning task. These can occur when you’re seeking to maximize engagement on your website, or figuring out clinical trials, or trying to optimize your computer’s performance.\
+Bandit problems require a balance between the exploration and exploitation trade-off. Because the problem starts with no prior knowledge of the rewards, it needs to explore (try a lot of slot machines) and then exploit (repeatedly pull the best lever) once it has narrowed down its selections.\
+ϵ-greedy can take a long time to settle in on the right one-armed bandit to play because it’s based on a small probability of exploration. The Upper Confidence Bound (UCB) method goes about it differently because we instead make our selections based on how uncertain we are about a given selection.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/reinforcement%20learning/images/Screen%20Shot%202020-09-30%20at%202.59.57%20PM.png)
 
-This Reo consist assignments of every model that written above.
+The above equation gives us the selection criterion for our model. Q_n(a) is our current estimate of the value of a given slot machine a. The value under the square root is the log of the total number of slot machines we’ve tried, n, divided by the number of times we’ve tried each slot machine a (k_n), while c is just a constant. We choose our next slot machine by selecting whichever bandit gives the largest value at each step n.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/reinforcement%20learning/images/Screen%20Shot%202020-09-30%20at%203.00.55%20PM.png)
+
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/reinforcement%20learning/images/Screen%20Shot%202020-09-30%20at%203.01.11%20PM.png)
+
+##### Thompson Sampling
+* Reinforcement Learning is a branch of Machine Learning, also called Online Learning. It is used to decide what action to take at t+1 based on data up to time t. This concept is used in Artificial Intelligence applications such as walking. A popular example of reinforcement learning is a chess engine. Here, the agent decides upon a series of moves depending on the state of the board (the environment), and the reward can be defined as win or lose at the end of the game.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/reinforcement%20learning/images/Screen%20Shot%202020-09-30%20at%203.06.45%20PM.png)
+
+* Thompson Sampling (Posterior Sampling or Probability Matching) is an algorithm for choosing the actions that address the exploration-exploitation dilemma in multi-armed bandit problem. Actions are performed several times and are called exploration. It uses training information that evaluates the actions taken rather than instructs by giving correct actions. This is what creates the need for active exploration, for an explicit trial-and-error search for good behaviour. Based on the results of those actions, rewards (1) or penalties (0) are given for that action to the machine. Further actions are performed in order to maximize the reward that may improve future performance. Suppose a robot has to pick several cans and put in a container. Each time it puts the can to the container, it will memorize the steps followed and train itself to perform the task with better speed and precision (reward). If the Robot is not able to put the can in the container, it will not memorize that procedure (hence speed and performance will not improve) and will be considered as a penalty.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/reinforcement%20learning/images/Screen%20Shot%202020-09-30%20at%203.07.30%20PM.png)
+
+*Some Practical Applications* 
+
+* Netflix Item based recommender systems: Images related to movies/shows are shown to users in such a way that they are more likely to watch it.
+* Bidding and Stock Exchange: Predicting Stocks based on Current data of stock prizes.
+* Traffic Light Control: Predicting the delay in signal.
+Automation in Industries: Bots and Machines for transporting and Delivering items without human intervention.
+
+References:
+https://towardsdatascience.com/
+https://www.geeksforgeeks.org/introduction-to-thompson-sampling-reinforcement-learning/
