@@ -167,6 +167,21 @@ Repeat steps 2 and 3 until all items are clustered into a single cluster of size
 ### Reinforcement learning
 * A system interacts with a dynamic environment in which it must perform a certain goal (such as driving a vehicle or playing a game against an opponent). The system is provided feedback in terms of rewards and punishments as it navigates its problem space.
 ##### Association Rule based Learning
+* Association Rules is one of the very important concepts of machine learning being used in market basket analysis. In a store, all vegetables are placed in the same aisle, all dairy items are placed together and cosmetics form another set of such groups. Investing time and resources on deliberate product placements like this not only reduces a customer’s shopping time, but also reminds the customer of what relevant items (s)he might be interested in buying, thus helping stores cross-sell in the process. Association rules help uncover all such relationships between items from huge databases. One important thing to note is - Rules do not extract an individual’s preference, rather find relationships between set of elements of every distinct transaction. This is what makes them different from collaborative filtering.
+* Lets now see what an association rule exactly looks like. It consists of an antecedent and a consequent, both of which are a list of items. Note that implication here is co-occurrence and not causality. For a given rule, itemset is the list of all the items in the antecedent and the consequent.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/reinforcement%20learning/images/Screen%20Shot%202020-09-30%20at%202.51.36%20PM.png)
+
+##### Support
+This measure gives an idea of how frequent an itemset is in all the transactions. Consider itemset1 = {bread} and itemset2 = {shampoo}. There will be far more transactions containing bread than those containing shampoo. So as you rightly guessed, itemset1 will generally have a higher support than itemset2. Now consider itemset1 = {bread, butter} and itemset2 = {bread, shampoo}.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/reinforcement%20learning/images/Screen%20Shot%202020-09-30%20at%202.51.43%20PM.png)
+##### Confidence
+This measure defines the likeliness of occurrence of consequent on the cart given that the cart already has the antecedents. That is to answer the question — of all the transactions containing say, {Captain Crunch}, how many also had {Milk} on them? We can say by common knowledge that {Captain Crunch} → {Milk} should be a high confidence rule. Technically, confidence is the conditional probability of occurrence of consequent given the antecedent.
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/reinforcement%20learning/images/Screen%20Shot%202020-09-30%20at%202.53.39%20PM.png)
+
+##### Lift
+* Lift controls for the support (frequency) of consequent while calculating the conditional probability of occurrence of {Y} given {X}. Lift is a very literal term given to this measure. Think of it as the *lift* that {X} provides to our confidence for having {Y} on the cart. To rephrase, lift is the rise in probability of having {Y} on the cart with the knowledge of {X} being present over the probability of having {Y} on the cart without any knowledge about presence of {X}. Mathematically,
+![Alt text](https://github.com/starkworld/Machine-Learning-Course-Work/blob/master/reinforcement%20learning/images/Screen%20Shot%202020-09-30%20at%202.54.19%20PM.png)
+
 ##### Upper Confidence Bound
 ##### Thompson Sampling
 
